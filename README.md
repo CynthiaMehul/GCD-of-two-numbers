@@ -17,13 +17,21 @@ To write a program to find the GCD of two numbers using function.
 ```
 /*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Cynthia Mehul J
+RegisterNumber:  23009725
 */
+a=int(input())
+approx=0.5*a
+for i in range(1,10):
+    b=0.5*(approx+a/approx)
+    approx=b
+print("Square root of the number:",b)
+
 ```
 
 ## Output:
 ![gcd of two number](gcd.png)
+![label](/Output%20GCD.jpg)
 
 
 ## Result:
